@@ -25,6 +25,7 @@ input{
     cursor: pointer;
     border-radius: 20px;
     background: linear-gradient(45deg,cornflowerblue 0,#1abc9c 100%);
+    transition: all linear 0.3s;
 }
 input:hover{
     background: linear-gradient(45deg,#4fc3dc 0,#96e5d5 100%);
