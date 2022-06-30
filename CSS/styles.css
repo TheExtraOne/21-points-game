@@ -13,6 +13,24 @@ body{
     height: 100vh;
     overflow: hidden;
 }
+input{
+    display: block;
+    position: absolute;
+    z-index: 1;
+    left: calc(50% - 150px);
+    top: calc(50% - 35px);;
+    width: 300px;
+    height: 70px;
+    font: 600 30px sans-serif;
+    cursor: pointer;
+    border-radius: 20px;
+    background: linear-gradient(45deg,cornflowerblue 0,#1abc9c 100%);
+}
+input:hover{
+    background: linear-gradient(45deg,#4fc3dc 0,#96e5d5 100%);
+    transition: all linear 0.7s;
+    transform: scale(1.1);
+}
 .bubles {
     position: relative;
     display: flex;
